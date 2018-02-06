@@ -1,8 +1,12 @@
+#name - max 15 char, without blank spaces
+PRINTER_0_NAME="HP_LJ_1100"
+PRINTER_0_DEVICE=/dev/printers/0
+PRINTER_0_TYPE=P
 
 SESSION_1_TITLE="WinTerm"
 SESSION_1_TYPE=rdesktop
 SESSION_1_RDESKTOP_SERVER=192.168.0.5
-SESSION_1_RDESKTOP_OPTIONS="-a 24 -x l -u user1 -p password1"
+SESSION_1_RDESKTOP_OPTIONS="-a 24 -x l -u user1 -p password1 -r printer:'HP_LJ_1100'='HP LaserJet 1100 (MS)'"
 SESSION_1_AUTOSTART=Off
 
 SESSION_1_TITLE="WinTerm2"

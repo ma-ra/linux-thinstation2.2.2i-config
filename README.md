@@ -1,5 +1,5 @@
 # linux-thinstation2.2.2i-config
- Config files for building thinstation 2.2.2i images for HP T5500 and HP T5530. The configuration includes the RDP connection from the terminal to the server, remote preview using VNC of the terminal, SSH access to the terminal and the Polish keyboard.
+ Config files for building thinstation 2.2.2i images for HP T5500 and HP T5530. The configuration includes the RDP connection from the terminal to the server, remote preview using VNC of the terminal, SSH access to the terminal and the Polish keyboard. Additionally printserver using lprng and printer mapping in rdesktop.
 
 # Build
 LANG=C ./build
